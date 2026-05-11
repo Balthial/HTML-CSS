@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Felipa&family=Matemasie&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap');
+
+        p {
+
+            font-family: Grenze Gotisch; serif;
+            font-size: 1.5em;
+            font-weight: lighter;
+            text-decoration: underline;
+            color: black;
+        }

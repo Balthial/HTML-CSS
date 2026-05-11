@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo de TAGS</title>
+    <style>
+       body {
+         background-color: rgb(46, 36, 75);   
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         margin: 0px;
+
+       }
+
+       header {
+background-color: rgb(80, 107, 131);
+padding: 5px;
+text-align: center;
+color: azure;
+text-shadow: 5px 5px 5px black;
+font-size: 20px;
+
+
+       }
+
+       nav {
+background-color: grey;
+border: 2px solid rgb(0, 0, 0);
+text-shadow: none;
+font-size: 15px;
+padding: 3px;
+box-shadow: 1px 1px 1px black;
+
+       }
+
+       a {
+        color: azure;
+        padding: 5px;
+        text-decoration: none;
+       }
+       a:hover {
+        text-decoration: double;
+        color: brown;
+        text-shadow: 2px 2px 2px black;
+       }
+
+       main {
+        background-color: aliceblue;
+        border: 5px;
+        border-style: solid;
+        padding: 5px;
+        margin: 5px;
+        box-shadow: 1px 1px 1px black; }
+
+
+       article {
+        background-color: rgb(224, 224, 224);
+        padding: 3px;
+        
+
+       }
+       article > aside {
+        background-color: rgb(146, 146, 146);
+        color: white;
+        padding: 3px;
+        border-radius: 5px;
+        text-indent: 10px;
+        font-style: oblique;
+       }
+
+       .bolo {
+        background-color: rgb(48, 27, 68);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 5px;
+        margin: 0px;
+       }
+
+       h2 {
+        background-color: rgb(34, 34, 66);
+        color: whitesmoke;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: normal;
+        border: 2px solid black;
+        padding: 5px;
+        box-shadow: 5px 5px 0px black;
+       }
+       
+       p {
+        text-indent: 30px;
+        text-align: justify;
+       }
+
+    li {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-style: italic;
+
+    }
+    
+
+       footer {
+        background-color: rgb(37, 41, 71);
+        color: whitesmoke;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+       }
+       footer > p {
+        margin: 0px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       }
+    </style>
+</head>
+<body>
+    <header>
+<h1>Agrupamentos de Tags e Caixas</h1>
+<nav>
+    <a href="#">Coisa Aqui</a>
+    <a href="#">Notícias daqui e do mundo</a>
+    <a href="#">Assuntos Variados</a>
+    <a href="#">Apenas um Show</a>
+    <a href="#">Apenas Seguidores</a>
+    
+</nav>
+    </header>
+    <main>
+<section id="noticias">
+    <article>
+        <h2>Teste de Notícias</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta unde cupiditate quas ipsam commodi aut id beatae, amet autem vitae quod quidem magnam molestias officia, consectetur, rem nobis deleniti quasi.</p>
+        <p><aside> Escrito por José</aside></p>
+    </article>
+</section>
+<section id="assuntos">
+    <article>
+        <h2>Teste de Assuntos</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, architecto laudantium. Provident ut sequi quos tempora excepturi asperiores odit maiores corrupti itaque quibusdam! Veniam quo reprehenderit cum laborum id. Pariatur.</p>
+        <p><aside> Escrito por José</aside></p>
+    </article>
+</section>
+<section id="alguma coisa">
+    <article>
+        <h2>Teste de Coisas</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi reprehenderit aliquid perferendis exercitationem mollitia? Ipsa, voluptates fuga ipsam quo sapiente, commodi quibusdam tempora officia unde eos cumque cupiditate nesciunt suscipit.</p>
+        <p><aside> Escrito por José</aside></p>
+    </article>
+</section>
+
+<section id="Receita de Bolo">
+    <article>
+        <h2>Bolo de Laranja</h2>
+        <p><aside class="bolo">Você vai precisar de:</aside></p>
+        <ul>
+            <li>4 ovos</li>
+            <li>1 xícara (chá) de óleo</li>
+            <li>casca de 1 laranja</li>
+            <li>1 colher (sopa) de fermento</li>
+            <li>2 xícaras (chá) de açúcar</li>
+            <li>suco de 2 laranjas</li>
+            <li>2 xícaras (chá) de farinha de trigo </li>
+        </ul>
+        <p><aside class="bolo"> Modo de Preparo: 40 min</aside></p>
+        <ol>
+            <li>Bata no liquidificador os ovos, o açúcar, o óleo, o suco e a casca da laranja.</li>
+            <li>Passe para uma tigela e acrescente a farinha de trigo e o fermento.</li>
+            <li>Leve para assar em uma forma com furo central, untada e enfarinhada, por mais ou menos 30 minutos.</li>
+            <li>Desenforme o bolo e molhe com suco de laranja.</li>
+        </ol>
+    </article>
+
+</section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Hu3Hu3</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Cloister'; /* nome do arquivo*/
+            src: url("CloisterBlack.ttf") format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            }
+
+@font-face {
+    font-family: 'Cardinal';
+    src: url('Cardinal.ttf') format('truetype');
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'CardinalA';
+    src: url('Cardinal-Alternate.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+            /*
+            tipos de formats - 
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetyp-aat (Apple Advanced Typography)
+            -svg
+             */
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        h1 {
+            font-family: 'Cloister', Times, serif;
+            font-size: 3em;
+            color: brown;
+        }
+
+        h2 {
+            font-family: 'CardinalA';
+            font-size: 2em;
+        }
+
+        p {
+            font-family: 'Cardinal', serif;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fontes EXternas</h1>
+    <h2>Uma terceira fonte</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vitae earum porro atque doloribus beatae ut assumenda, vel, sit quibusdam, ipsam quod a quas aliquam eum consequuntur error laudantium! Pariatur.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, praesentium veniam voluptatem ex dolor animi. Dignissimos odio labore ad numquam consequatur ex sed. Labore doloribus quisquam omnis ut a eius!</p>
+    
+    
+</body>
+</html>

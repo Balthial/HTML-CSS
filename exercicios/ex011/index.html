@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5
+    
+    </title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários disposítivos diferentes ou simplesmente aumente e díminua o tamanho do seu navegador</p>
+    <picture>
+<source media="(max-width: 750px )" srcset="img/pequeno.png" type="image/png">
+
+        <source media="(max-width: 1050px )" srcset="img/medio.png" type="image/png"> <!--por algum motivo ñ tem o max, tive que alterar manualmente-->
+<img src="img/grande.png" alt="uma foto grande com o G escrito">
+<hr>
+<source media="(min-width: 1050px )" srcset="img/grande.png" type="image/png">
+<source media="(min-width: 750px )" srcset="img/medio.png" type="image/png">
+<img src="img/pequeno.png" alt="imagem pequena">
+</picture>
+<p><a href="https://9gag.com/gag/a0eyY2O" target="_blank">como fazia um link mesmo?</a> Só envelopar com a tag a e usar a tag target blank para abrir em uma nova janela</p>
+<h1>Reproduzindo Áuido</h1>
+<p>Vamos aprender a reproduzir áudios no HTML5</p>
+<audio src="midia/Ain't No Rest For The Wicked.mp3"controls autoplay></audio>
+<p>outra forma de criar o audio no navegador</p>
+<audio preload="metadata" controls>
+    <source src="midia/Ain't No Rest For The Wicked.mp3" type="audio/mpeg">
+</audio>
+<hr>
+<h1>Formatos de Vídeo para seu Site</h1>
+
+</body>
+</html>
